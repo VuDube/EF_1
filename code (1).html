@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Eco_Friends Lock Screen</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#38e07b",
+            "background-light": "#f6f8f7",
+            "background-dark": "#122017",
+          },
+          fontFamily: {
+            "display": ["Epilogue", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden" style='font-family: Epilogue, "Noto Sans", sans-serif;'>
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between">
+<div class="flex size-12 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined text-[#111714] dark:text-white">arrow_back</span>
+</div>
+<h2 class="text-[#111714] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Keep Your Stories Safe!</h2>
+</div>
+<div class="flex items-center gap-4 bg-background-light dark:bg-background-dark px-4 py-4 min-h-14 justify-between">
+<div class="flex items-center gap-4">
+<div class="text-[#111714] dark:text-white flex items-center justify-center rounded-lg bg-[#f0f4f2] dark:bg-gray-800 shrink-0 size-10">
+<span class="material-symbols-outlined">lock</span>
+</div>
+<p class="text-[#111714] dark:text-white text-base font-medium leading-normal flex-1 truncate">Lock Your App</p>
+</div>
+<div class="shrink-0">
+<label class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#f0f4f2] dark:bg-gray-800 p-0.5 has-[:checked]:justify-end has-[:checked]:bg-primary">
+<div class="h-full w-[27px] rounded-full bg-white dark:bg-gray-400" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
+<input checked="" class="invisible absolute" type="checkbox"/>
+</label>
+</div>
+</div>
+<div class="flex px-4 py-3">
+<div class="flex h-10 flex-1 items-center justify-center rounded-xl bg-[#f0f4f2] dark:bg-gray-800 p-1">
+<label class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-xl px-2 has-[:checked]:bg-white has-[:checked]:dark:bg-gray-700 has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#111714] has-[:checked]:dark:text-white text-[#648772] dark:text-gray-400 text-sm font-medium leading-normal">
+<span class="truncate">Number Code</span>
+<input checked="" class="invisible w-0" name="lock-type" type="radio" value="Number Code"/>
+</label>
+<label class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-xl px-2 has-[:checked]:bg-white has-[:checked]:dark:bg-gray-700 has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#111714] has-[:checked]:dark:text-white text-[#648772] dark:text-gray-400 text-sm font-medium leading-normal">
+<span class="truncate">Picture Path</span>
+<input class="invisible w-0" name="lock-type" type="radio" value="Picture Path"/>
+</label>
+</div>
+</div>
+<p class="text-[#111714] dark:text-gray-300 text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">Tap the numbers to make your secret code.</p>
+<div class="flex justify-center px-4 py-3">
+<fieldset class="relative flex gap-4">
+<input class="flex h-14 w-12 text-center text-2xl font-bold [appearance:textfield] focus:outline-0 focus:ring-0 [&amp;::-webkit-inner-spin-button]:appearance-none [&amp;::-webkit-outer-spin-button]:appearance-none rounded-xl border-2 border-transparent bg-[#f0f4f2] dark:bg-gray-800 dark:text-white focus:border-2 focus:border-primary text-base font-normal leading-normal" max="9" maxlength="1" min="0" type="number" value=""/>
+<input class="flex h-14 w-12 text-center text-2xl font-bold [appearance:textfield] focus:outline-0 focus:ring-0 [&amp;::-webkit-inner-spin-button]:appearance-none [&amp;::-webkit-outer-spin-button]:appearance-none rounded-xl border-2 border-transparent bg-[#f0f4f2] dark:bg-gray-800 dark:text-white focus:border-2 focus:border-primary text-base font-normal leading-normal" max="9" maxlength="1" min="0" type="number" value=""/>
+<input class="flex h-14 w-12 text-center text-2xl font-bold [appearance:textfield] focus:outline-0 focus:ring-0 [&amp;::-webkit-inner-spin-button]:appearance-none [&amp;::-webkit-outer-spin-button]:appearance-none rounded-xl border-2 border-transparent bg-[#f0f4f2] dark:bg-gray-800 dark:text-white focus:border-2 focus:border-primary text-base font-normal leading-normal" max="9" maxlength="1" min="0" type="number" value=""/>
+<input class="flex h-14 w-12 text-center text-2xl font-bold [appearance:textfield] focus:outline-0 focus:ring-0 [&amp;::-webkit-inner-spin-button]:appearance-none [&amp;::-webkit-outer-spin-button]:appearance-none rounded-xl border-2 border-transparent bg-[#f0f4f2] dark:bg-gray-800 dark:text-white focus:border-2 focus:border-primary text-base font-normal leading-normal" max="9" maxlength="1" min="0" type="number" value=""/>
+</fieldset>
+</div>
+<div class="grid grid-cols-3 gap-6 px-12 pt-6 pb-8">
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">1</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">2</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">3</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">4</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">5</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">6</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">7</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">8</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">9</button>
+<div></div>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">0</button>
+<button class="h-20 w-20 rounded-full bg-[#f0f4f2] dark:bg-gray-800 text-3xl font-bold text-[#111714] dark:text-white flex items-center justify-center mx-auto">
+<span class="material-symbols-outlined">backspace</span>
+</button>
+</div>
+<div class="px-4 pb-6 mt-auto">
+<button class="w-full h-14 bg-primary text-white text-lg font-bold rounded-xl">Save Secret Code</button>
+</div>
+</div>
+</body></html>

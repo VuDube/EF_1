@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Eco_Friends Podcast Script</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#32CD32",
+            "background-light": "#FAF3E0",
+            "background-dark": "#122017",
+            "olive-drab": "#6B8E23",
+            "steel-blue": "#4682B4",
+            "sandy-brown": "#F4A460",
+            "gold": "#FFD700",
+            "charcoal": "#36454F",
+          },
+          fontFamily: {
+            "display": ["Epilogue", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-charcoal dark:text-background-light">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="flex items-center p-4 pb-2 justify-between">
+<div class="flex size-12 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined text-charcoal dark:text-background-light text-2xl">menu</span>
+</div>
+<h2 class="text-charcoal dark:text-background-light text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Our Story</h2>
+<div class="flex w-12 items-center justify-end gap-2">
+<button class="flex items-center justify-center rounded-full h-8 w-8 bg-transparent text-charcoal dark:text-background-light">
+<span class="material-symbols-outlined text-2xl">text_increase</span>
+</button>
+<button class="flex items-center justify-center rounded-full h-8 w-8 bg-transparent text-charcoal dark:text-background-light">
+<span class="material-symbols-outlined text-2xl">volume_up</span>
+</button>
+</div>
+</div>
+<div class="flex flex-col gap-3 p-4">
+<div class="rounded-full bg-olive-drab/30 dark:bg-olive-drab/50"><div class="h-2 rounded-full bg-primary" style="width: 30%;"></div></div>
+</div>
+<div class="px-4 pb-3 pt-2 flex justify-between items-center">
+<img alt="A friendly animated leaf mascot." class="h-16 w-16" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaw02M0J2APCVa14YgTp3HIxNQHVCiMPPZSLtr5-Nd3jPqFbnhmgUNvQwxkRKaihojHMBSWAUs1GthqEtXAQrLEY1bOqIyi5Wl9ie7eMlQhlQDSaFB4sIhEN8_9sz-yu_0XfZpmASdzOhHQABOxxpN1MC-Om08kHYFigQyK1rxKzxtJ54f-WpuePpbdqpjHjUOltVdMOS1vnR7UPWjE4UH3D6HD8R5_Vh_zYV7aK6jcm5nSg6dNlK5jLGlU9wiUqrOIyB_bPQrovE"/>
+<h1 class="text-charcoal dark:text-background-light tracking-light text-[32px] font-bold leading-tight text-center flex-grow">The Magical Forest</h1>
+<div class="w-16"></div> <!-- Spacer for balance -->
+</div>
+<div class="px-4 flex-grow">
+<p class="text-charcoal dark:text-background-light text-lg font-normal leading-relaxed pb-3 pt-1">
+<strong class="text-steel-blue">Squeaky:</strong> Once upon a time, in a forest filled with talking animals and sparkling rivers, lived a little squirrel named Squeaky. He was a very curious squirrel and loved exploring.
+      </p>
+<p class="text-charcoal dark:text-background-light text-lg font-normal leading-relaxed pb-3 pt-1 relative">
+<span class="material-symbols-outlined text-primary absolute -left-7 top-1 animate-pulse">equalizer</span>
+<strong class="text-sandy-brown">Narrator:</strong> One sunny morning, Squeaky decided to venture deeper into the woods than ever before. He packed a small bag with his favorite acorns and set off on his adventure.
+      </p>
+<p class="text-charcoal dark:text-background-light text-lg font-normal leading-relaxed pb-3 pt-1">
+<strong class="text-steel-blue">Squeaky:</strong> I wonder what I'll find today! Maybe a river of chocolate or a tree that grows candy!
+      </p>
+</div>
+<div class="sticky bottom-0 bg-background-light dark:bg-background-dark p-4 flex justify-between items-center border-t border-charcoal/10 dark:border-background-light/10">
+<button class="flex items-center justify-center rounded-xl h-14 bg-olive-drab/20 dark:bg-olive-drab/40 text-charcoal dark:text-background-light gap-2 text-lg font-bold leading-normal tracking-[0.015em] px-6">
+<span class="material-symbols-outlined">arrow_back</span>
+            Back
+        </button>
+<button class="flex items-center justify-center rounded-xl h-14 bg-primary text-white gap-2 text-lg font-bold leading-normal tracking-[0.015em] px-6">
+            Next
+            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</body></html>

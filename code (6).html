@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Eco_Friends</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#38e07b",
+                        "background-light": "#f6f8f7",
+                        "background-dark": "#122017",
+                        "leafy-green": "#6DD39E",
+                        "sky-blue": "#87CEEB",
+                        "sunshine-yellow": "#FFD700",
+                        "coral-pink": "#FF7F50",
+                        "tangerine-orange": "#FFA500",
+                        "light-cream": "#FFFACD",
+                        "dark-slate-gray": "#2F4F4F"
+                    },
+                    fontFamily: {
+                        "display": ["Epilogue", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-light-cream dark:bg-dark-slate-gray font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="flex items-center p-4 pb-2 justify-between">
+<div class="text-dark-slate-gray flex size-12 shrink-0 items-center">
+<span class="material-symbols-outlined text-4xl text-leafy-green">eco</span>
+</div>
+<h2 class="text-dark-slate-gray dark:text-light-cream text-lg font-bold leading-tight tracking-[-0.015em] flex-1">Hi, Alex!</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 bg-transparent text-dark-slate-gray gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0 relative">
+<span class="material-symbols-outlined text-3xl">notifications</span>
+<span class="absolute top-2 right-2 flex h-4 w-4 items-center justify-center rounded-full bg-coral-pink text-white text-xs font-bold">2</span>
+</button>
+</div>
+</div>
+<div class="flex-grow p-4 flex flex-col items-center justify-center">
+<div class="w-full max-w-sm flex flex-col items-center">
+<div class="w-full flex justify-center mb-6">
+<img alt="A cheerful cartoon parrot mascot for Eco_Friends." class="w-48 h-48" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkq6bH-M6OjuM-rwJPI4QcbW6jSEXsWj7ZjlAJjRuqLBddSydVZcI8SN01sgNhdfUWHYND34FBRxMd65xIVLMXwlSMN3EtVHKTz3i9OtDvmPUM1Y4vE3b_qp4pIOjE0o4c5TOg0JBQV_FnHzySgynLZMXPvlWPRypFlGWALuSz91v8RliWS0P2TgrsNpD1w_9tMNXmdDInIRKWwItNCvbnIliqzynxziwLoZsaL2aB0GeQbmP3_LYahXDPEzeaXslI9sAxUyJUMh0"/>
+</div>
+<div class="w-full px-4 mb-6">
+<div class="flex flex-col gap-3">
+<div class="flex gap-6 justify-between">
+<p class="text-dark-slate-gray dark:text-light-cream text-base font-medium leading-normal">Your Progress</p>
+</div>
+<div class="rounded-full bg-leafy-green/30 h-4">
+<div class="h-4 rounded-full bg-leafy-green" style="width: 60%;"></div>
+</div>
+</div>
+</div>
+<div class="w-full flex flex-col gap-4 px-4">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-16 px-5 bg-sky-blue text-dark-slate-gray text-lg font-bold leading-normal tracking-[0.015em] w-full shadow-lg transform hover:scale-105 transition-transform">
+<span class="material-symbols-outlined mr-2">description</span>
+<span class="truncate">My Scripts</span>
+</button>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-16 px-5 bg-sunshine-yellow text-dark-slate-gray text-lg font-bold leading-normal tracking-[0.015em] w-full shadow-lg transform hover:scale-105 transition-transform">
+<span class="material-symbols-outlined mr-2">mic</span>
+<span class="truncate">Start Recording</span>
+</button>
+</div>
+</div>
+</div>
+<div class="flex gap-2 border-t border-leafy-green/30 bg-light-cream dark:bg-dark-slate-gray px-4 pb-3 pt-2 mt-auto">
+<a class="flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-leafy-green" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+</div>
+<p class="text-leafy-green text-xs font-bold leading-normal tracking-[0.015em]">Home</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-dark-slate-gray/60 dark:text-light-cream/60" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined">folder</span>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">My Work</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-dark-slate-gray/60 dark:text-light-cream/60" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined">help</span>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Help</p>
+</a>
+</div>
+</div>
+</body></html>

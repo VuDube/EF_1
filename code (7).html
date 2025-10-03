@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Eco_Friends Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#38e07b",
+            "background-light": "#f6f8f7",
+            "background-dark": "#122017",
+          },
+          fontFamily: {
+            "display": ["Epilogue", "Noto Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between">
+<div class="flex size-12 shrink-0 items-center">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-8" data-alt="User profile avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAZY_6Hq1HuG6ikSpurJjYyWl5EoHC9QfeyXslARrCpCvUhAKkxpYCbmE0lZTNePRIrwNww31k1VtAV6O_vjP9fz77B9DY7q7IeQuU8YOtMw3uUS0laekhR-WqschQsjodJvvSHqouC3gJ4WymkeSF5C778VFP1ve_UW40PzBQIJKA-ikKZXi_L7L0_KptBHW2mvpysZAiIwoM_9R0ZuK7IjCgg9GAbCocFgC1mCFpG1zqYcIR-WgF3bkcIqQD6r3c8NBtJGBNdOWo");'></div>
+</div>
+<h2 class="text-[#111714] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1">Eco_Friends</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 bg-transparent text-[#111714] dark:text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined text-[#111714] dark:text-white">notifications</span>
+</button>
+</div>
+</div>
+<div class="p-4 @container">
+<div class="flex flex-1 flex-col items-start justify-between gap-4 rounded-xl border border-primary/30 bg-primary/20 p-5 @[480px]:flex-row @[480px]:items-center">
+<div class="flex flex-col gap-1">
+<p class="text-[#111714] text-base font-bold leading-tight">New message from Alex!</p>
+<p class="text-green-900/80 text-base font-normal leading-normal">A new script is ready for you!</p>
+</div>
+<a class="text-sm font-bold leading-normal tracking-[0.015em] flex gap-2 items-center text-[#111714]" href="#">
+          View Script
+          <span class="material-symbols-outlined text-[#111714]">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="flex justify-center">
+<div class="flex flex-1 gap-3 max-w-[480px] flex-col items-stretch px-4 py-3">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-primary text-[#111714] text-base font-bold leading-normal tracking-[0.015em] w-full">
+<span class="truncate">My Scripts</span>
+</button>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-primary text-[#111714] text-base font-bold leading-normal tracking-[0.015em] w-full">
+<span class="truncate">Start Recording</span>
+</button>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-primary text-[#111714] text-base font-bold leading-normal tracking-[0.015em] w-full">
+<span class="truncate">Read Messages</span>
+</button>
+</div>
+</div>
+<h3 class="text-[#111714] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Recent Activity</h3>
+<div class="flex flex-col gap-2 pb-24">
+<div class="flex items-center gap-4 bg-background-light dark:bg-background-dark px-4 min-h-[72px] py-2 justify-between">
+<div class="flex items-center gap-4">
+<div class="text-green-600 flex items-center justify-center rounded-lg bg-green-100 shrink-0 size-12">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+<div class="flex flex-col justify-center">
+<p class="text-[#111714] dark:text-white text-base font-medium leading-normal line-clamp-1">Great job on the 'Rainforest Sounds' recording!</p>
+<p class="text-[#648772] dark:text-gray-400 text-sm font-normal leading-normal line-clamp-2">Completed today</p>
+</div>
+</div>
+<div class="shrink-0">
+<p class="text-[#648772] dark:text-gray-400 text-sm font-normal leading-normal">10:42 AM</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-background-light dark:bg-background-dark px-4 min-h-[72px] py-2 justify-between">
+<div class="flex items-center gap-4">
+<div class="text-blue-600 flex items-center justify-center rounded-lg bg-blue-100 shrink-0 size-12">
+<span class="material-symbols-outlined">article</span>
+</div>
+<div class="flex flex-col justify-center">
+<p class="text-[#111714] dark:text-white text-base font-medium leading-normal line-clamp-1">New script assigned: 'The Talking Tree'</p>
+<p class="text-[#648772] dark:text-gray-400 text-sm font-normal leading-normal line-clamp-2">Assigned yesterday</p>
+</div>
+</div>
+<div class="shrink-0">
+<p class="text-[#648772] dark:text-gray-400 text-sm font-normal leading-normal">Yesterday</p>
+</div>
+</div>
+</div>
+<div class="fixed bottom-0 left-0 right-0 bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-700">
+<div class="flex items-center justify-center py-2">
+<div class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined text-base">cloud_off</span>
+<span>Offline Mode</span>
+</div>
+</div>
+<div class="flex justify-around items-center h-16">
+<a class="flex flex-col items-center text-primary" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-xs">Home</span>
+</a>
+<a class="flex flex-col items-center text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined">mic</span>
+<span class="text-xs">Record</span>
+</a>
+<a class="flex flex-col items-center text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined">chat</span>
+<span class="text-xs">Messages</span>
+</a>
+</div>
+</div>
+</div>
+</body></html>

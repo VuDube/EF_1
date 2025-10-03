@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Eco_Friends Podcast Recording</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#38e07b",
+                        "background-light": "#f6f8f7",
+                        "background-dark": "#122017",
+                    },
+                    fontFamily: {
+                        "display": ["Epilogue", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between">
+<div class="text-[#111714] dark:text-white flex size-12 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined">arrow_back</span>
+</div>
+<h2 class="text-[#111714] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Record Your Episode</h2>
+<div class="flex size-12 shrink-0 items-center"></div>
+</div>
+<div class="flex flex-col items-center justify-center flex-grow p-4">
+<div class="w-full max-w-sm flex justify-center mb-8">
+<div class="w-48 h-48 bg-center bg-no-repeat bg-contain" data-alt="Friendly cartoon animal mascot" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBKZjtUSbsiGRuOusI2Mi18Neufi8WhPgTpx74pHESZxXpKAjL-q0LkREnvzOOHz1ZnSf0eLtfIuJ2dZQPKv_kqIbQNLS32gwSoONma2_M7z_VlQKFNgqVtj-P_mZakOIv2xoA5tzCOmTpuKSu8kXugydr6kO4lLQSx8V6YHmxpnDM_ShQn4SynV0U3_i8IKex8aVI-ltwL3Jr6s6NnTct3stuVx5DN7kuzbUwv8oB3ETpkTg7xisGyt1KWxA9CfmG0bGU_m5xptkg");'></div>
+</div>
+<p class="text-[#111714] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">Press the big button to start recording!</p>
+<div class="flex-grow flex flex-col items-center justify-center w-full">
+<div class="relative flex items-center justify-center my-8">
+<svg class="absolute w-64 h-64 text-gray-200 dark:text-gray-700" viewbox="0 0 100 100">
+<circle cx="50" cy="50" fill="none" r="45" stroke-width="10"></circle>
+</svg>
+<svg class="absolute w-64 h-64 text-primary" style="transform: rotate(-90deg);" viewbox="0 0 100 100">
+<circle cx="50" cy="50" fill="none" r="45" stroke="currentColor" stroke-dasharray="282.6" stroke-dashoffset="282.6" stroke-width="10" style="transition: stroke-dashoffset 1s linear; stroke-dashoffset: 210;"></circle>
+</svg>
+<button class="relative w-48 h-48 bg-primary rounded-full flex items-center justify-center shadow-lg transform transition-transform active:scale-95">
+<span class="material-symbols-outlined text-white text-8xl">mic</span>
+</button>
+</div>
+</div>
+<div class="flex gap-4 py-6 px-4 w-full max-w-md">
+<div class="flex grow basis-0 flex-col items-stretch gap-2">
+<div class="flex h-14 grow items-center justify-center rounded-xl px-3 bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700">
+<p class="text-[#111714] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">00</p>
+</div>
+<div class="flex items-center justify-center"><p class="text-[#111714] dark:text-gray-400 text-sm font-normal leading-normal">Hours</p></div>
+</div>
+<div class="flex grow basis-0 flex-col items-stretch gap-2">
+<div class="flex h-14 grow items-center justify-center rounded-xl px-3 bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700">
+<p class="text-[#111714] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">00</p>
+</div>
+<div class="flex items-center justify-center"><p class="text-[#111714] dark:text-gray-400 text-sm font-normal leading-normal">Minutes</p></div>
+</div>
+<div class="flex grow basis-0 flex-col items-stretch gap-2">
+<div class="flex h-14 grow items-center justify-center rounded-xl px-3 bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700">
+<p class="text-[#111714] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">00</p>
+</div>
+<div class="flex items-center justify-center"><p class="text-[#111714] dark:text-gray-400 text-sm font-normal leading-normal">Seconds</p></div>
+</div>
+</div>
+<div class="w-full px-4 pt-4 pb-8">
+<button class="w-full h-14 bg-primary text-white font-bold text-lg rounded-xl flex items-center justify-center shadow-md">
+                    Done
+                </button>
+</div>
+</div>
+</div>
+</body></html>
